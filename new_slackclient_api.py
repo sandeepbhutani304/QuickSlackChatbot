@@ -52,7 +52,7 @@ def say_hello(**payload):
            client = slack.WebClient(token=slack_token)
            response = client.chat_postMessage(
                 channel=channel_id,
-                text=f"Hi <@{user}>!. It is great that you want training in RPA and we can help. You can contact on my phone 9899592179 to discuss more. \nRegards - sandeep")
+                text=f"Hi <@{user}>!. It is great that you want training in RPA and we can help. You can contact on my phone 989900001 to discuss more. \nRegards - sandeep")
        else:  #send to luis
            intent, confidence = get_luis_response(data['text'])
            print(intent, confidence )
